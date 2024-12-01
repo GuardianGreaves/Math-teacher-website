@@ -10,71 +10,87 @@
     <link rel="stylesheet" href="../../assets/css/styles.css">
 </head>
 <body>
-<header>
+<header class="header2">
     <div class="container">
         <div class="header__top">
-            <div class="head">
-                <h2>Сайт учителя математики</h2>
-            </div>
+            <a class="logo" href="#">
+                <img src="../../assets/images/logo.png">
+            </a>
             <nav class="menu">
                 <ul class="menu__list">
                     <li class="menu__item">
-                        <a class="menu__link" href="../home/index.html">Главная</a>
+                        <a class="menu__link" href="../../index.html">ГЛАВНАЯ</a>
                     </li>
                     <li class="menu__item">
-                        <a menu__link href="../news/index.html">Новости</a>
+                        <a class="menu__link" href="../../index.html">ОБО МНЕ</a>
                     </li>
                     <li class="menu__item">
-                        <a menu__link href="../author/index.html">Автор</a>
+                        <a class="menu__link" href="../../pages/achievements/index.html">ДОСТИЖЕНИЯ</a>
                     </li>
                     <li class="menu__item">
-                        <a menu__link href="../guest_book/index.html">Гостевая книга</a>
+                        <a class="menu__link" href="../../pages/oge/index.html">ПОДГОТОВКА К ОГЭ</a>
                     </li>
                     <li class="menu__item">
-                        <a menu__link href="../map_site/index.html">Карта сайта</a>
+                        <a class="menu__link" href="index.html">ОБРАТНАЯ СВЯЗЬ</a>
                     </li>
-                    <li class="menu__item">
-                        <a menu__link href="../contact/index.html">Контакты</a>
-                    </li>
-                    <li class="menu__item">
-                        <a menu__link href="../home/index.html">...</a>
-                    </li>
-                </ul>    
+                </ul>
             </nav>
         </div>
     </div>
 </header>
 
-<main>
-    <div class="container">
-        <section class="section">
-            <h2>Контакты</h2>
-        </section>    
-    </div> 
+<main class="main">
+    <div class="container_contact-form2">
+        <div class="slide_contact-form">
+            <p class="slide_class_title">Обратная связь</p>
+            <p class="slide_class_text">Если у вас есть вопросы, свяжитесь со мной</p>
+            <div class="contact-form">
+                <input type="text" id="name" name="name" placeholder="Имя" required>
+
+                <input type="email" id="email" name="email" placeholder="E-mail" required>
+
+                <textarea id="message" name="message" rows="4" placeholder="Ваше сообщение" required></textarea>
+
+                <div class="form-group">
+                    <button type="submit">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 
-<footer>
-    <div class="container">
-        <section class="section">
-            <div class="contact">
-                <p>Шумкова Анастасия Николаевна</p>
-                <p>Email: info@gmail.com</p>
-            </div>
-            <div class="site-map">
-                <h3>Карта сайта</h3>
-                <ul>
-                    <li><a href="#home">Главная</a></li>
-                    <li><a href="#news">Новости</a></li>
-                    <li><a href="#author">Автор</a></li>
-                    <li><a href="#guest_book">Гостевая книга</a></li>
-                    <li><a href="#map_site">Карта сайта</a></li>
-                    <li><a href="#contact">Контакты</a></li>
+<footer class="footer">
+    <div class="container_contact">
+        <div class="contact">
+            <p>Шумкова Анастасия Николаевна</p>
+            <p>Email: info@gmail.com</p>
+        </div>
+        <div class="site-map">
+            <nav class="site-map_menu">
+
+                <ul class="site-map_menu__list">
+                    <p>Карта сайта</p>
+                    <li class="site-map__item">
+                        <a class="site-map__link" href="pages/home/index.html">ГЛАВНАЯ</a>
+                    </li>
+                    <li class="site-map__item">
+                        <a class="site-map__link" href="pages/news/index.html">НОВОСТИ</a>
+                    </li>
+                    <li class="site-map__item">
+                        <a class="site-map__link" href="#section1">ОБО МНЕ</a>
+                    </li>
+                    <li class="site-map__item">
+                        <a class="site-map__link" href="#section2">ДОСТИЖЕНИЯ</a>
+                    </li>
+                    <li class="site-map__item">
+                        <a class="site-map__link" href="pages/contact/index.html">ОБРАТНАЯ СВЯЗЬ</a>
+                    </li>
                 </ul>
-            </div>
-        </section>    
+            </nav>
+        </div>
     </div>
 </footer>
 
-<script src="../../assets/js/scripts.js"></script>
+<script src="assets/js/scripts.js"></script>
 </body>
 </html>
